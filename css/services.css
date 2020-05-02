@@ -1,0 +1,146 @@
+ #background-home {
+    position: absolute;
+    left: 0px;
+    top: 150px;
+    left: 0px;
+    width: 100%;
+    
+    height: auto;
+    z-index: -1;
+}
+
+nav {
+    display: flex;   
+    justify-content: space-between;
+    margin-top: 25px; 
+
+
+}
+
+body {
+    height: 100px;
+
+}
+
+
+
+.nav-item {
+    
+   
+    font-family: 'EB Garamond', serif;
+    font-size:  18px;
+    color: #088A08;
+
+}
+
+#overall {
+    display: flex;
+    margin-top: 50px;
+}
+
+#second {
+    display: flex;
+}
+
+#third {
+    display: flex;
+}
+#logo {
+    width: 275px;
+    margin-top: 5%;
+
+}
+
+#doctor-text {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    justify-content: left;
+    position: relative;
+    
+    
+    margin-left: 5%;
+    color: black;
+    width: 800px;
+    padding: 10px;
+    border: 10px;
+    border-radius: 10px 10px 10px 10px;
+}
+
+
+#dean-text {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    justify-content: left;
+    position: relative;
+    margin-left: 2%;
+    color: black;
+    width: 800px;
+    padding: 10px;
+    border: 10px;
+    border-radius: 10px 10px 10px 10px;
+
+}
+
+h1{
+    font-size:  30px;
+    text-align: center; 
+    margin-top: 60px;
+
+
+
+}
+
+h2{ 
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+ }
+
+ h3 {
+    margin: 0px;
+ }
+
+#amir {
+    
+    margin-left: 100px;
+    height: 150px;
+}
+
+#dean {
+    margin-left: 88px;
+    height: 150px;
+}
+
+#lumbo {
+    margin-left: 104px;
+    height: 150px;
+}
+
+#youtube {
+    width: 40px;
+    margin-left: 750px;
+}
+
+#nav-container {
+    width: 30%;
+    margin-right: 50px;
+}
+
+header {
+   
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size:  20px;
+
+}
+#doctor-header {
+    font-weight: bold;
+}
+
+#doctor-text:hover, #dean-text:hover {
+    box-shadow: 0px 0px 15px rgb(48, 2, 2);
+    transition: 0.2s;
+}
+
